@@ -1,0 +1,8 @@
+vpc_cidr_block            = "10.0.0.0/16"
+subnet_cidr_block_public  = "10.0.10.0/24"
+subnet_cidr_block_private = "10.0.20.0/24"
+avail_zone_public         = "us-east-1a"
+avail_zone_private        = "us-east-1b"
+my-ip                     = "0.0.0.0/0"
+instance-type             = "t2.micro"
+image_name                = "ami-0f5ee92e2d63afc18"
