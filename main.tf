@@ -27,7 +27,7 @@ module "vpc" {
   my-ip                     = var.my-ip
 }
 
-module "server" {
+module "instance" {
   source            = "./module/instance"
   vpc_id            = module.vpc.my-vpc.id
   my-ip             = var.my-ip
